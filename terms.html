@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Energía solar en Chile - Soluciones sostenibles para hogares y empresas."
+    />
+    <meta
+      name="keywords"
+      content="energía solar, paneles solares, Chile, sostenibilidad, energía renovable"
+    />
+    <meta name="author" content="SolarChile" />
+    <link rel="shortcut icon" href="./img/favicon.webp" type="image/x-icon" />
+    <title>SolarChile - Energía Solar para un Futuro Sostenible</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <a href="/">
+            <img
+              src="./img/logo.webp"
+              alt="SolarChile Logo"
+              height="50"
+            />RogabetSun</a
+          >
+        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="./about-us/">Sobre Nosotros</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section class="terms-conditions">
+        <div class="container">
+          <h1>Términos y Condiciones</h1>
+        </div>
+        <div class="container">
+          <h2>Introducción</h2>
+          <p>
+            Estos términos y condiciones regulan el uso de los servicios
+            ofrecidos por RogabetSun. Al acceder a nuestro sitio web y utilizar
+            nuestros servicios, usted acepta estos términos.
+          </p>
+
+          <h2>Servicios</h2>
+          <p>
+            RogabetSun ofrece soluciones de energía solar para hogares y
+            empresas. Nuestros servicios incluyen la instalación de sistemas
+            solares, mantenimiento y asesoramiento técnico.
+          </p>
+
+          <h2>Responsabilidad del Usuario</h2>
+          <p>
+            El usuario se compromete a proporcionar información precisa y veraz
+            en el uso de nuestros servicios. Asimismo, se compromete a utilizar
+            nuestros servicios de acuerdo con la ley y las regulaciones
+            vigentes.
+          </p>
+
+          <h2>Propiedad Intelectual</h2>
+          <p>
+            Todo el contenido del sitio web, incluidos los textos, imágenes y
+            logotipos, son propiedad de RogabetSun o de sus licenciantes. No se
+            permite la reproducción sin autorización.
+          </p>
+
+          <h2>Modificaciones de los Términos</h2>
+          <p>
+            Nos reservamos el derecho de modificar estos términos y condiciones
+            en cualquier momento. Las modificaciones serán publicadas en esta
+            página.
+          </p>
+
+          <h2>Jurisdicción</h2>
+          <p>
+            Estos términos y condiciones se rigen por las leyes de Chile.
+            Cualquier disputa relacionada con estos términos se resolverá en los
+            tribunales competentes de Santiago, Chile.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-container">
+        <div class="logo">
+          <a href="/">
+            <img src="./img/logo.webp" alt="SolarChile Logo" height="50"
+          /></a>
+        </div>
+        <div class="footer-nav">
+          <h4>Menú</h4>
+          <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="./about-us/">Sobre Nosotros</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-policies">
+          <h4>Políticas</h4>
+          <ul>
+            <li><a href="./privacy.html">Política de Privacidad</a></li>
+            <li><a href="./cookies.html">Política de Cookies</a></li>
+            <li><a href="./terms.html">Términos y Condiciones</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-subscribe">
+          <h4>Suscríbete a nuestro boletín</h4>
+          <form action="#" method="post">
+            <input
+              type="email"
+              name="email"
+              placeholder="Tu correo electrónico"
+              required
+            />
+            <button type="submit">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SolarChile. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelectorAll(".faq-question").forEach((button) => {
+        button.addEventListener("click", () => {
+          const faqItem = button.closest(".faq-item");
+          faqItem.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>

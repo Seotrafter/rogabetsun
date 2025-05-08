@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/
+Allow: /public/
+Disallow: /about-us/
+Sitemap: https://rogabetsun.com/sitemap.xml

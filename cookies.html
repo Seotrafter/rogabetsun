@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Energía solar en Chile - Soluciones sostenibles para hogares y empresas."
+    />
+    <meta
+      name="keywords"
+      content="energía solar, paneles solares, Chile, sostenibilidad, energía renovable"
+    />
+    <meta name="author" content="SolarChile" />
+    <link rel="shortcut icon" href="./img/favicon.webp" type="image/x-icon" />
+    <title>SolarChile - Energía Solar para un Futuro Sostenible</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <a href="/">
+            <img
+              src="./img/logo.webp"
+              alt="SolarChile Logo"
+              height="50"
+            />RogabetSun</a
+          >
+        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="./about-us/">Sobre Nosotros</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section class="cookies-policy">
+        <div class="container">
+          <h1>Política de Cookies</h1>
+        </div>
+        <div class="container">
+          <h2>¿Qué son las Cookies?</h2>
+          <p>
+            Las cookies son pequeños archivos de texto que se almacenan en su
+            dispositivo cuando visita un sitio web. Ayudan a mejorar la
+            experiencia de navegación y permiten personalizar el contenido y los
+            anuncios.
+          </p>
+
+          <h2>¿Qué Cookies Usamos?</h2>
+          <p>
+            Utilizamos cookies esenciales para el funcionamiento del sitio, así
+            como cookies analíticas y de personalización para mejorar su
+            experiencia de usuario.
+          </p>
+
+          <h2>¿Cómo Gestionar las Cookies?</h2>
+          <p>
+            Puede gestionar las preferencias de cookies directamente desde la
+            configuración de su navegador. Si prefiere no recibir cookies, puede
+            desactivarlas, aunque algunas funcionalidades del sitio pueden no
+            funcionar correctamente.
+          </p>
+
+          <h2>Modificaciones de la Política de Cookies</h2>
+          <p>
+            Podemos actualizar nuestra política de cookies ocasionalmente.
+            Cualquier cambio será publicado en esta página, por lo que le
+            recomendamos que la revise periódicamente.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-container">
+        <div class="logo">
+          <a href="/">
+            <img src="./img/logo.webp" alt="SolarChile Logo" height="50"
+          /></a>
+        </div>
+        <div class="footer-nav">
+          <h4>Menú</h4>
+          <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="./about-us/">Sobre Nosotros</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-policies">
+          <h4>Políticas</h4>
+          <ul>
+            <li><a href="./privacy.html">Política de Privacidad</a></li>
+            <li><a href="./cookies.html">Política de Cookies</a></li>
+            <li><a href="./terms.html">Términos y Condiciones</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-subscribe">
+          <h4>Suscríbete a nuestro boletín</h4>
+          <form action="#" method="post">
+            <input
+              type="email"
+              name="email"
+              placeholder="Tu correo electrónico"
+              required
+            />
+            <button type="submit">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SolarChile. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelectorAll(".faq-question").forEach((button) => {
+        button.addEventListener("click", () => {
+          const faqItem = button.closest(".faq-item");
+          faqItem.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>
